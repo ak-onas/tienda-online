@@ -1,0 +1,32 @@
+* { box-sizing: border-box;}
+
+
+div {
+  border: 3px solid black;
+}
+
+body {
+    text-align:center;
+}
+#container {
+    width: 1500px;
+    margin: 0px auto;
+    text-align: left;
+    background-color:    #f2ffc9;
+}
+
+#sidebar {
+    width:1490px;
+
+    padding: 40px;
+    float: left;
+    background-color:   #7dd991;
+    color: black;
+}
+
+#footer {
+    clear: both;
+}
+
+#slimline {
+color :red;
