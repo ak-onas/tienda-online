@@ -1,32 +1,37 @@
-* { box-sizing: border-box;}
-
+* { box-sizing: border-box; }
 
 div {
-  border: 3px solid black;
+  border: thin solid black;
 }
 
 body {
     text-align:center;
 }
+
+#header { padding: 1em;}
+#menu { padding: 1em;}
+
 #container {
-    width: 1500px;
-    margin: 0px auto;
-    text-align: left;
-    background-color:    #f2ffc9;
+  padding: 1em;
+  width: 100%;
+  margin: 0px auto;
+  text-align: left;
+  background-color: #f2ffc9;
 }
 
-#sidebar {
-    width:1490px;
-
-    padding: 40px;
+#content {
+    width:100%;
+    padding: 1em;
     float: left;
-    background-color:   #7dd991;
+    background-color: #7dd991;
     color: black;
 }
 
 #footer {
-    clear: both;
+  padding: 1em;
+  clear: both;
 }
 
 #slimline {
 color :red;
+}

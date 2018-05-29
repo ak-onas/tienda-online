@@ -2,46 +2,55 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>Layout 003</title>
+		<title>Crèdit de síntesi</title>
 		<link rel="stylesheet" type="text/css" href="index.css" />
+		<script src="https://www.w3schools.com/lib/w3.js"></script>
 	</head>
 
 	<body>
-<div id="container">
-    <div id="header">
-        <h1>PROYECTO TIENDA ONLINE </h1>
-<div id="slimline">
-        <h2>RESUMEN DE PROYECTO</h2>
-    </div>
-    <div id="sidebar">
+	<div id="container">
+	<div id="header" w3-include-html="header.html"></div>
+	<div id="menu" w3-include-html="menu.html"></div>
+
+	<div id="content">
         <p>Durante este proyecto hemos preparado dos Máquinas Virtuales con
 ubuntu 16.04 Desktop en la que hemos instalado las tienda. Una
 maquina para Tienda1 ( Cubecart ) y la otra para Tienda2
 ( PrestaShop).</p>
-        <p>La Configuración de Virtualbox es la siguiente:</p>
-        <ul>
-          <li>Versión: 64 bits</li>
-          <li>Tamaño de la Memoria: 2048 MB</li>
-          <li>Tamaño de Disco Duro: 30,00 GB</li>
-        </ul>
+	<p>La Configuración de Virtualbox es la siguiente:</p>
+    <ul>
+      <li>Versión: 64 bits</li>
+      <li>Tamaño de la Memoria: 2048 MB</li>
+      <li>Tamaño de Disco Duro: 30,00 GB</li>
+    </ul>
 <p>Primero hemos instalado la Tienda1 (Cubecart) y la hemos configurado con: </p>
 <ul>
   <li> 6 Lenguas diferentes </li>
- HTTPS y HTTP / 2
- Forma de Pago con Tarjeta Crédito
- 6 categorías diferentes
- 50 Productos diferentes
+  <li>HTTPS y HTTP / 2 </li>
+  <li>Forma de Pago con Tarjeta Crédito </li>
+  <li>6 categorías diferentes </li>
+  <li>50 Productos diferentes </li>
 </ul>
-<h3>Después hemos instalado la Tienda2 (Prestashop) y la hemos
-configurado con :
-- 6 Lenguas
-- HTTPS y HTTP / 2
-- Forma de Pago con Tarjeta Crédito y PAYPAL
-- 3 categorías diferentes con subcategorías
-- 50 Productos diferentes</h3>
+<p>Después hemos instalado la Tienda2 (Prestashop) y la hemos configurado con:</p>
+	<ul>
+		<li>6 Lenguas </li>
+		<li> HTTPS y HTTP / 2 </li>
+		<li> Forma de Pago con Tarjeta Crédito y PAYPAL </li>
+		<li> 3 categorías diferentes con subcategorías </li>
+		<li> 50 Productos diferentes</li>
+	</ul>
     </div>
+		<!-- End content -->
 
-    <div id="footer">
-        <p></p>
-    </div>
+    <div id="footer" w3-include-html="footer.html"></div>
 </div>
+<!-- End container -->
+
+	<!-- https://www.w3schools.com/howto/howto_html_include.asp -->
+	<!-- Call the w3 include script to compute included pages -->
+	<script>
+	w3.includeHTML();
+	</script>
+
+	</body>
+</html>
