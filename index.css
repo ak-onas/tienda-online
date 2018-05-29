@@ -12,7 +12,7 @@ body {
 #menu { padding: 1em;}
 
 #container {
-  padding: 1em;
+  padding: 50px;
   width: 100%;
   margin: 0px auto;
   text-align: left;
@@ -21,7 +21,7 @@ body {
 
 #content {
     width:100%;
-    padding: 1em;
+    padding: 50px;
     float: left;
     background-color: #7dd991;
     color: black;
@@ -30,8 +30,17 @@ body {
 #footer {
   padding: 1em;
   clear: both;
+  color: black;
 }
 
 #slimline {
 color :red;
+}
+
+#inicio-page {
+background-color: black;
+}
+
+#objetivo-page {
+background-color: grey;
 }
