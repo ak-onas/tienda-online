@@ -6,6 +6,7 @@ div {
 
 body {
     text-align:center;
+    font-family: arial;
 }
 
 #header { padding: 1em; }
