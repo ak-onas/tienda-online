@@ -8,27 +8,39 @@ body {
     text-align:center;
 }
 
-#header { padding: 1em;}
-#menu { padding: 1em;}
+#header { padding: 1em; }
+#menu {
+  padding: 1em;
+background-color:#1C1C1C;}
+
+nav a {
+  padding: 16.5px;
+  border:  thin solid black;
+  color: white;
+  margin-left: 2%;
+}
 
 #container {
-  padding: 50px;
+  padding: 40px;
   width: 100%;
   margin: 0px auto;
   text-align: left;
-  background-color: #f2ffc9;
+  background-color:
+   #f2ffc9;
+
 }
 
 #content {
     width:100%;
-    padding: 50px;
+    padding: 10px;
     float: left;
     background-color: #7dd991;
     color: black;
+
 }
 
 #footer {
-  padding: 1em;
+  padding: 10px;
   clear: both;
   color: black;
 }
@@ -39,8 +51,19 @@ color :red;
 
 #inicio-page {
 background-color: black;
+    padding: 10px;
+
 }
 
 #objetivo-page {
-background-color: grey;
+    padding: 10px;
+
+background-color: black;
+}
+
+
+#planificacion-page {
+    padding: 10px;
+
+background-color: black;
 }
